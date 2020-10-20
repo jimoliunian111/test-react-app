@@ -1,0 +1,61 @@
+@import '../../../assets/styles/theme.scss';
+.accordion-style {
+  width: 100%;
+  min-height: 30vw;
+  background-color: $block-background;
+}
+.accordion-item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  // min-height: 8vw;
+  padding: 2.8vw 3.2vw;
+  box-sizing: border-box;
+  border-bottom: 1px solid #EFEFEF;
+  border-top: 1px solid #EFEFEF;
+  font-size: 3.5vw;
+}
+.accordion-item:last-of-type {
+  border: none;
+}
+.accordion-item-title {
+  max-width: 65vw;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+.accordion-item-option {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  width: 30vw;
+}
+
+.accordion-item-option-link {
+  width: 4vw;
+  // transition: all 0.3s linear;
+  // transform: rotate(180deg);
+  .iconfont {
+    display: block;
+    font-size: 3.2vw;
+    color: $font-sub;
+  }
+}
+
+.accordion-item-content {
+  width: 100%;
+  padding: 2.8vw 3.2vw;
+  box-sizing: border-box;
+  background-color: $block-background;
+  // border-bottom: 1px solid #EFEFEF;
+  font-size: 3.5vw;
+}
+// .accordion-item-content:last-of-type {
+//   border: none;
+// }

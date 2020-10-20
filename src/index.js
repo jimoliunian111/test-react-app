@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './assets/styles/index.css';
+import './assets/styles/theme.scss';
+import 'antd-mobile/dist/antd-mobile.css';  
+import './assets/iconfont/iconfont.css';
+
 import * as serviceWorker from './serviceWorker';
 
 import RouteConfig from './router/entry.js'

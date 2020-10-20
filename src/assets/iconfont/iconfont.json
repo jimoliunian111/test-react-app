@@ -1,0 +1,296 @@
+{
+  "id": "928766",
+  "name": "产品接入（API详情页）",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16941035",
+      "name": "分享",
+      "font_class": "bianzu2",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "14542093",
+      "name": "（16）加号",
+      "font_class": "16jiahao",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "14542094",
+      "name": "（16）减号",
+      "font_class": "16jianhao",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "14541125",
+      "name": "(16)圆形问号",
+      "font_class": "16yuanxingwenhao",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "14541126",
+      "name": "(12)下箭头",
+      "font_class": "12xiajiantou",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "13137481",
+      "name": "(24)_关闭",
+      "font_class": "_guanbi",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "2912573",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "10460545",
+      "name": "相机",
+      "font_class": "xiangji",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "9964041",
+      "name": "感叹号",
+      "font_class": "gantanhao",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "9844200",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "8938256",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "8938257",
+      "name": "星星_圆形",
+      "font_class": "xingxing_yuanxing",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "8938258",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "7208116",
+      "name": "平静脸",
+      "font_class": "pingjinglian",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "7208117",
+      "name": "难受脸",
+      "font_class": "nanshoulian",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "7208118",
+      "name": "笑脸",
+      "font_class": "xiaolian",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "6748455",
+      "name": "右箭头_职业列别查询",
+      "font_class": "youjiantou_zhiyeliebiechaxun",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "6748456",
+      "name": "关闭_30X30职业类别查询",
+      "font_class": "guanbi_Xzhiyeleibiechaxun",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "6748457",
+      "name": "左箭头_职业列别查询",
+      "font_class": "zuojiantou_zhiyeliebiechaxun",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "6748330",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "6748159",
+      "name": "关闭_投保页",
+      "font_class": "guanbi_toubaoye",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "6748160",
+      "name": "三角形_下",
+      "font_class": "sanjiaoxing_xia",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "6748161",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "6748162",
+      "name": "日期",
+      "font_class": "riqi",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "6748163",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "6748164",
+      "name": "理赔服务",
+      "font_class": "lipeifuwu",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "6748165",
+      "name": "投保失败",
+      "font_class": "toubaoshibai",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "6748166",
+      "name": "投保成功",
+      "font_class": "toubaochenggong",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "6748167",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "6748168",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "6748169",
+      "name": "投保须知",
+      "font_class": "toubaoxuzhi",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "6748170",
+      "name": "产品条款",
+      "font_class": "chanpintiaokuan",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "6748171",
+      "name": "盾牌",
+      "font_class": "dunpai",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "6748172",
+      "name": "感叹号_圆",
+      "font_class": "gantanhao_yuan",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "6748173",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "6744646",
+      "name": "对勾",
+      "font_class": "duigou",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "6744609",
+      "name": "投保人信息",
+      "font_class": "toubaorenxinxi",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6744610",
+      "name": "续期账户信息",
+      "font_class": "xuqizhanghuxinxi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "6744611",
+      "name": "订单信息",
+      "font_class": "dingdanxinxi",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "6744612",
+      "name": "被保人信息",
+      "font_class": "beibaorenxinxi",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "6744614",
+      "name": "保险计划",
+      "font_class": "baoxianjihua",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

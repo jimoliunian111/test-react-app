@@ -2,7 +2,7 @@ import React from 'react'
 import {renderRoutes} from 'react-router-config';
 import {HashRouter as Router} from 'react-router-dom';
 const Product = (props) => {
-  console.log('Aixin-props', props)
+  console.log('Product-props', props)
   return (
     <div>
       <Router>
