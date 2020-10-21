@@ -22,7 +22,7 @@
   border: none;
 }
 .accordion-item-title {
-  max-width: 65vw;
+  max-width: 60vw;
   word-wrap: break-word;
   word-break: break-all;
   text-overflow: ellipsis;
@@ -34,13 +34,11 @@
   justify-content: flex-end;
   align-content: center;
   align-items: center;
-  width: 30vw;
+  min-width: 30vw;
 }
 
 .accordion-item-option-link {
   width: 4vw;
-  // transition: all 0.3s linear;
-  // transform: rotate(180deg);
   .iconfont {
     display: block;
     font-size: 3.2vw;
@@ -49,13 +47,10 @@
 }
 
 .accordion-item-content {
+  transition: all 0.2s linear;
   width: 100%;
   padding: 2.8vw 3.2vw;
   box-sizing: border-box;
   background-color: $block-background;
-  // border-bottom: 1px solid #EFEFEF;
   font-size: 3.5vw;
 }
-// .accordion-item-content:last-of-type {
-//   border: none;
-// }

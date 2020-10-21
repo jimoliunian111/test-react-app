@@ -1,0 +1,13 @@
+@import '../../../assets/styles/theme.scss';
+.gap-style {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2.8vw 3.2vw;
+  box-sizing: border-box;
+  font-size: 4.2vw;
+  background-color: $block-background;
+}

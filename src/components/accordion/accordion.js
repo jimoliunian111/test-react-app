@@ -1,14 +1,13 @@
 import React from 'react';
 import { useState } from 'react';
-// import './assets/style.css';
 import './assets/style.scss';
 
 const closeStyle = {
-  transition: 'all 0.3s linear',
+  transition: 'all 0.2s linear',
   transform: 'rotate(180deg)'
 }
 const openStyle = {
-  transition: 'all 0.3s linear',
+  transition: 'all 0.2s linear',
   transform: 'rotate(0deg)'
 }
 const showStyle = {
@@ -17,26 +16,29 @@ const showStyle = {
   overflow: 'hidden'
 }
 const hideStyle = {
-  transition: 'all 0.3s ease-in',
+  transition: 'all 0.2s ease-out',
   height: '0',
   overflow: 'hidden',
   padding: '0 3.2vw'
 }
 
 const Accordion = (props) => {
-  console.log('Accordion-props', props)
-  props.options.map(item => {
-    item.show = false
-  })
-  const [arr, setArr] = useState(props.options);
-  
+  // console.log('Accordion-props', props)
   const Item = (item) => {
-    console.log('Item-props', item)
+    // console.log('Item-props', item)
     let data = item.value
     const [show, setShow] = useState(data.show);
     
     const ItemClick = () => {
-      setShow(data.show = !data.show)
+      if (props.isAccordion) {
+        if (show) {
+          setShow(!show)
+        } else {
+          props.handleClick(item.index)
+        }
+      } else {
+        setShow(!show)
+      }
     }
     return (
       <div>
@@ -49,29 +51,24 @@ const Accordion = (props) => {
             </p>
           </div>
         </div>
-        
         <div className="accordion-item-content" style={show ? showStyle : hideStyle}>
           {data.content}
         </div>
       </div>
-      
     )
   }
-  
-  const Main = () => {
-    const list = arr.map((item, idx) => {
-                 return <Item value={item} index={idx} key={idx} />
-               })
+  const Main = (props) => {
+    // console.log('Main-props', props.list, props)
+    const list = props.list.map((item, idx) => <Item value={item} index={idx} key={idx} />)
     return (
       <div className="accordion-style">
         {list}
       </div>
     )
   }
-  
   return (
     <div>
-      <Main />
+      <Main list={props.options} />
     </div>
   )
 }
